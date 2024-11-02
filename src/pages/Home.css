@@ -1,0 +1,88 @@
+.saldo{
+  font-weight: bold;
+  font-size: 32px;
+  
+}
+
+.negativo{
+  color: red;
+}
+
+.positivo{
+  color: green;
+}
+
+.btn, .mr{
+  margin: 10px 5px !important;
+}
+
+.large {
+  width: 100% !important;
+  border: 1px solid #ced4da !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  font-size:  20px;
+  font-weight: bold;
+  width: 700px;
+  margin: auto 50px;
+}
+
+.center .navbar-nav {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .center .navbar-nav {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+
+  h3, .h3 {
+    font-size: 1.8rem !important;
+  }
+
+  .display-3 {
+    font-size: 2rem !important;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media(max-width: 580px) {
+  * {
+    text-align: center;
+  }
+
+  .p-dialog .p-dialog-titlebar-icons {
+    display: none;
+  }
+
+  .btn-dialog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .btn-dialog:last-child{
+    margin-top: 5px !important;
+  }
+
+}
+
+@media (max-width: 300px) {
+  body .p-dialog .p-dialog-footer button {
+    margin: 5px auto;
+    width: 100%;
+  }
+}
